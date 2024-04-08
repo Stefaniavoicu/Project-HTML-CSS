@@ -1,0 +1,462 @@
+@import url(./global.css);
+.header-container{
+    display: flex;
+}
+.header-container-left{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    width: 610px;
+    height: 490px;
+    background-color: var(--black-color);
+    padding: 245px 112px;
+    position: relative;
+}
+.header-container-text{
+    max-width: 387px;
+    color: var(--white-color);
+}
+.header-container-subtitle{
+    margin-top: 21px;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25px;
+    opacity: 0.6;
+}
+.header-line-gradient{
+    width: 6px;
+    height: 144px;
+    background: linear-gradient(27deg, #FFC593 0%, #BC7198 43.29%, #5A77FF 83.33%);
+    position: absolute;
+    margin-top: 173px;
+}
+.header-container-right{
+    height: 490px;
+    width: 830px;
+    background-image: url(./assets/pricing/desktop/hero.jpg);
+}
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.main-card{
+    max-width: 1110px;
+    height: 550px;
+    margin-top: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center; 
+}
+.main-card-header{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+}
+.card-content-tablet{
+  display: none;
+}
+.card-content-black-tablet{
+  display: none;
+}
+.main-card-content{
+   max-width: 1110px;
+   height: 470px;
+   display:flex;
+   gap:30px;
+}
+.card-content{
+    margin-top: 80px;
+    display:flex ;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 350px;
+    height: 407px;
+    background-color: var(--gray-color);
+}
+.main-card-title{
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 25px;
+    padding-bottom: 18px;
+}
+.main-card-subtitle{
+  width: 270px;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 25px;
+  opacity: 0.6;
+}
+.main-card-price{
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px; 
+  letter-spacing: 4.167px;
+  text-transform: uppercase;
+  padding-top: 40px;
+}
+.main-card-price-subtitle{
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 25px;
+  opacity: 0.6;
+  padding-bottom: 40px;
+}
+.main-card-button{
+  width: 270px;
+  height: 40px;
+  border: none;
+  background-color: var(--black-color);
+  color: var(--white-color);
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+.main-card-button:hover{
+  background-color: var(--hover-gray);
+  color: var(--black-color);
+}
+.card-content-black{
+  margin-top: 48px;
+  display:flex ;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 350px;
+  height: 470px;
+  background-color: var(--black-color);
+  color: var(--white-color);
+}
+.main-card-button-black{
+width: 270px;
+height: 40px;
+border: none;
+background-color: var(--white-color);
+color: var(--black-color);
+font-size: 12px;
+font-weight: 700;
+letter-spacing: 2px;
+text-transform: uppercase;
+cursor: pointer;
+}
+.main-card-button-black:hover{
+background-color: var(--hover-gray);
+color: var(--black-color);
+}
+.table{
+  margin-top: 191px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 56px;
+}
+.styled-table {
+    width: 731px;
+    height: 552px;
+    border-collapse: collapse; 
+  }
+  .styled-table th,.styled-table td {
+    text-align: left;
+    border-bottom: 1px solid #DFDFDF;
+    padding: 0px 30px 0px 30px;
+  }
+
+  .styled-table th {
+    background-color:var(--white-color);
+  }
+  .table-text{
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+  }
+  .banner{
+    margin-top: 160px;
+    max-width: 1440px;
+    height: 280px;
+    background-image: url(./assets/shared/desktop/bg-beta.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+ 
+}
+.banner-text{
+    display: flex;
+    justify-content: space-between;
+
+}
+.banner-title{
+   max-width: 400px;
+   padding-top: 68px;
+   margin-left: 150px;
+   font-size: 40px;
+   font-weight: 700; 
+   line-height: 48px;
+   letter-spacing: 4.167px;
+   text-transform: uppercase;
+   color: var(--white-color);
+}
+.banner-button-container{
+    display: flex;
+    height: 16px;
+    margin-right: 165px;
+    margin-top: 132px;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+.banner-button{ 
+    text-align: right;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    background: none;
+    border: none;
+    text-transform: uppercase;
+    color: var(--white-color);
+    cursor: pointer;
+}
+.banner-button:hover{
+    text-decoration-line: underline;
+}
+ .banner-line-gradient{
+    width: 6px;
+    height: 280px;
+    background:linear-gradient(27deg, #FFC593 0%, #BC7198 43.29%, #5A77FF 83.33%);
+    margin-bottom: 800px;
+}   
+
+@media(max-width:768px){
+  .header-container-left{
+    width: 495px;
+    height: 490px;
+    padding: 173px 53px;
+}
+.header-container-right{
+    width: 273px;
+    background-image: url(./assets/pricing/tablet/hero.jpg);
+}
+.card-content{
+  display: none;
+}
+.card-content-black{
+  display: none;
+}
+.card-content-tablet{
+  display: block;
+}
+.main-card{
+  width: 689px;
+  height: 930px;
+  margin-top: 112px;
+}
+.main-card-content{
+  width: 689px;
+  height: 858px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+.card-content-tablet{
+  display: block;
+  display:flex ;
+  align-items: flex-start;
+  justify-content: space-between;
+  text-align: none;
+  width: 689px;
+  height: 270px;
+  background-color: var(--gray-color);
+  padding-left: 40px;
+}
+.main-card-title-tablet{
+  padding-top: 40px;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 25px;
+  padding-bottom: 18px;
+}
+.main-card-subtitle-tablet{
+  width: 270px;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 25px;
+  opacity: 0.6;
+  padding-bottom: 32px;
+}
+.main-card-price-tablet{
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px; 
+  letter-spacing: 4.167px;
+  text-transform: uppercase;
+  padding-top: 40px;
+  padding-right: 48px;
+}
+.main-card-price-subtitle-tablet{
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 25px;
+  opacity: 0.6;
+  padding-left: 80px;
+}
+.card-content-black-tablet{
+  display: block;
+  display:flex ;
+  align-items: flex-start;
+  justify-content: space-between;
+  text-align: none;
+  width: 689px;
+  height: 270px;
+  background-color: var(--black-color);
+  padding-left: 40px;
+  color: var(--white-color);
+}
+.banner-title{
+  margin-left: 39px;
+}
+.banner-button-container{
+  margin-right: 40px;
+}
+.banner{
+  background-image: url(./assets/shared/tablet/bg-beta.jpg);
+}
+}
+
+@media(max-width:375px){
+  nav ul{
+    display: none;
+}
+.nav-button{
+   display: none;
+}
+.burger-menu{
+    height: 10px;
+    width: 20px;
+    background-image: url(./assets/shared/desktop/burger-menu.svg);
+    cursor: pointer;
+}
+.header-container{
+  flex-direction: column-reverse;
+}
+.header-container-right{
+  width: 375px;
+  height: 294px;
+  background-image: url(./assets/pricing/mobile/hero.jpg);
+}
+.header-container-left{
+  width: 375px;
+  height: 300px;
+  padding: 72px 28px 72px 29px;
+}
+.header-container-text{
+  max-width: 318px;
+}
+.header-container-title{
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 40px; 
+  letter-spacing: 3.333px;
+  text-transform: uppercase;
+}
+.header-container-subtitle{
+  margin-top: 16px;
+}
+.header-line-gradient{
+  width: 128px;
+  height: 6px;
+  position: absolute;
+  margin-bottom: 294px;
+  margin-left: 29px;
+}
+.card-content-tablet{
+  display: none;
+}
+.card-content-black-tablet{
+  display: none;
+}
+.main-card{
+  width: 318px;
+  height: 1341px; 
+}
+.main-card-content{
+  max-width: 318px;
+  height: 1269px;
+  gap: 24px;
+}
+.card-content{
+  margin-top: 20px;
+  display: block;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 318px;
+  height: 407px;
+}
+.card-content-black{
+  margin: 0;
+  display: block;
+  display:flex ;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 318px;
+  height: 407px;
+}
+
+.main-card-title{
+  padding-bottom: 18px;
+}
+.main-card-subtitle{
+  width: 275px;
+}
+.main-card-price{
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px; 
+  letter-spacing: 4.167px;
+  text-transform: uppercase;
+  padding-top: 40px;
+}
+.banner{
+  background-image: url(./assets/shared/mobile/bg-beta.jpg);
+}
+.banner-text{
+  flex-direction: column; 
+  justify-content: flex-start;
+}
+.banner-title{
+  max-width: 310px;
+  padding-top: 64px;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 40px;
+  letter-spacing: 3.333px;
+  text-transform: uppercase;
+}
+.banner-button-container{
+  display: flex;
+  margin-right: 0;
+  margin-top: 16px;
+  margin-left: -120px;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+}
+}
+ 
+  
+  
+  
+  
+  

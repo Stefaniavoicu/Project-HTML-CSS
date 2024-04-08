@@ -1,0 +1,421 @@
+@import url(./global.css);
+.banner1{
+    display: flex;
+}
+.banner1-left{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    width: 610px;
+    height: 650px;
+    background-color: var(--black-color);
+    padding: 160px 111px 159px 112px;
+    position: relative;
+}
+.banner1-left-h1{
+    color: var(--white-color);
+}
+.banner1-left-p{
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25px;
+    color: var(--white-color);
+    opacity: 0.6;
+}
+.button1{
+    margin-top: 48px;
+    display: flex;
+    flex-direction: row;
+    gap: 18px;
+}
+.secondary-button{
+    color: var(--white-color);
+    cursor: pointer;
+}
+.secondary-button:hover{
+    text-decoration-line: underline;
+}
+.banner1-right{
+    height: 650px;
+    width: 830px;
+    background-image: url(../starter-code/assets/home/desktop/create-and-share.jpg);
+}
+.line-gradient{
+    width: 6px;
+    height: 304px;
+    background: linear-gradient(27deg, #FFC593 0%, #BC7198 43.29%, #5A77FF 83.33%);
+    position: absolute;
+    margin-top: 173px;
+        
+}
+
+.banner2{
+    display: flex;
+}
+.banner2-left{
+    height: 600px;
+    width: 830px;
+    background-image: url(./assets/home/desktop/beautiful-stories.jpg);
+}
+ .banner2-right{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    width: 610px;
+    height: 600px;
+    background-color: var(--white-color);
+    padding: 136px 111px 135px 112px;
+} 
+.banner2-right-h1{
+    color: var(--black-color);
+}
+.banner2-right-p{
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25px;
+    color: var(--black-colorr);
+    opacity: 0.6;
+}
+.button2{
+    margin-top: 48px;
+    display: flex;
+    flex-direction: row;
+    gap: 18px;
+}
+.third-button{
+    color: var(--black-color);
+    cursor: pointer;
+}
+.third-button:hover{
+    text-decoration-line: underline;
+}
+.banner3{
+    display: flex;
+}
+.banner3-left{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    width: 610px;
+    height: 600px;
+    background-color: var(--white-color);
+    padding: 160px 111px 159px 112px;
+}
+.banner3-left-h1{
+    color: var(--black-color);
+}
+.banner3-left-p{
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25px;
+    color: var(--black-color);
+    opacity: 0.6;
+}
+.button3{
+    margin-top: 48px;
+    display: flex;
+    flex-direction: row;
+    gap: 18px;
+}
+.third-button{
+    color: var(--black-color);
+}
+.banner3-right{
+    height: 600px;
+    width: 830px;
+    background-image: url(./assets/home/desktop/designed-for-everyone.jpg);
+}
+.blog-section{
+    height:fit-content;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(min-content,360px));
+   
+}
+.card{
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-end;
+    padding-left: 40px;
+    padding-bottom: 40px;
+}
+.card-bg1{
+    background-image: url(./assets/stories/desktop/mountains.jpg);
+}
+.card-bg2{
+    background-image: url(./assets/stories/desktop/cityscapes.jpg);
+}
+.card-bg3{
+    background-image: url(./assets/stories/desktop/18-days-voyage.jpg);
+}
+.card-bg4{
+    background-image: url(./assets/stories/desktop/architecturals.jpg);
+}
+.card-bg1:hover,
+.card-bg2:hover,
+.card-bg3:hover,
+.card-bg4:hover{
+    transform: translateY(-24px);
+    border-bottom: 6px solid;
+    border-image: linear-gradient(
+        150deg,
+        hsl(28deg 100% 79%) 0%,
+        hsl(19deg 92% 77%) 20%,
+        hsl(9deg 78% 75%) 29%,
+        hsl(356deg 62% 72%) 36%,
+        hsl(343deg 49% 66%) 43%,
+        hsl(329deg 36% 59%) 50%,
+        hsl(316deg 38% 58%) 57%,
+        hsl(297deg 37% 57%) 64%,
+        hsl(277deg 52% 62%) 71%,
+        hsl(255deg 72% 67%) 80%,
+        hsl(229deg 100% 68%) 100%
+      )
+      1;
+}
+.blog-section-title{
+    color: var(--white-color);
+}
+.blog-section-paragraph{
+    font-size: 13px;
+    font-weight: 400;
+    color: var(--white-color);
+}
+.line{
+    margin-top: 16px;
+    width: 280px;
+    height: 1px;
+    opacity: 0.25;
+    background-color: var(--white-color);
+}
+.blog-section-button{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 147px;
+}
+.image-button{
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    background: none;
+    border: none;
+    color: var(--white-color);
+}
+.info{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.info-board{
+    height: 476px;
+    padding-top: 120px;
+    width: 1110px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 30px;
+}
+.info-board-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.info-board >img{
+    margin-bottom: 20px;
+    height:72px;
+    width: 72px;
+    justify-self:center;
+    align-items: center;
+}
+.info-board-title{
+    width: 350px;
+    height: 25px;
+    text-align: center;
+}
+.info-board-p{
+    width: 350px;
+    text-align: center;
+    opacity: 0.6;
+}
+.computer{
+    padding-top: 48px;
+}
+.eight{
+    padding-top: 66px;
+}
+.pencil{
+    padding-top: 48px;
+}
+.p1{
+    padding-top: 59px;
+}
+.p3{
+    padding-top: 59px;
+}
+.p2{
+    padding-top: 77px;
+}
+.footer-svg{
+    width: 154px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+@media (max-width:768px){
+   .banner1-left{
+    width: 495px;
+    padding: 173px 54px 173px 54px;
+   }    
+   .banner1-right{
+    width: 273px;
+    background-image: url(./assets/home/tablet/create-and-share.jpg);
+   }
+   .banner2-left{
+    width: 273px;
+    background-image: url(./assets/home/tablet/beautiful-stories.jpg);
+   }
+   .banner2-right{
+    width: 495px;
+    padding: 136px 54px 135px 54px;
+   }
+   .banner3-left{
+    width: 495px;
+    padding: 160px 54px 159px 54px;
+   }
+   .banner3-right{
+    width: 273px;
+    background-image: url(./assets/home/tablet/designed-for-everyone.jpg);
+   }
+   .blog-section{
+    width: 53%;
+    height: fit-content;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+   }
+   .card{
+    width: 100%;
+    height: 500px;
+   }
+   .info{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   
+   }
+   .info-board{
+    display: flex;
+    flex-direction: column;
+    width: 457px;
+    height: 1015px;
+   }
+}
+@media (max-width:375px){
+    nav ul{
+        display: none;
+    }
+    .nav-button{
+       display: none;
+    }
+    .burger-menu{
+        height: 10px;
+        width: 20px;
+        background-image: url(./assets/shared/desktop/burger-menu.svg);
+        cursor: pointer;
+    }
+    .banner1{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .banner1-right{
+        height: 294px;
+        width: 375px;
+        background-image: url(./assets/home/mobile/create-and-share.jpg);
+    }
+    .banner1-left{
+        width: 375px;
+        height: 419px;
+        padding: 72px 24px 72px 33px;
+        position: relative;
+    }
+    h1{
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 40px; /* 125% */
+        letter-spacing: 3.333px;
+        text-transform: uppercase;
+    }
+    .line-gradient{
+        width: 128px;
+        height: 6px;
+        margin-bottom: 413px;
+        margin-left: 33px;
+        position: absolute;
+    }
+    .banner2{
+        display: flex;
+        flex-direction: column;
+    }
+    .banner2-left{
+        width: 375px;
+        height: 271px;
+        background-image: url(./assets/home/mobile/beautiful-stories.jpg);
+    }
+    .banner2-right{
+        width: 375px;
+        height: 419px;
+        padding: 72px 24px 72px 33px;
+    }
+    .banner3{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .banner3-right{
+        width: 375px;
+        height: 271px;
+    }
+    .banner3-left{
+        width: 375px;
+        height: 419px;
+        padding: 92px 24px 92px 33px;
+    }
+    .blog-section{
+        height: fit-content;
+        display: grid;
+        grid-template-columns: 375px;
+    }
+    .card{
+        height: 375px;
+        width: 375px;
+    }
+    .info{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .info-board{
+        width: 310px;
+        height: 962px;
+    }
+    .info-board-p{
+        width: 310px;
+        font-size: 15px;
+    }
+}
+
+
+ 
+
+

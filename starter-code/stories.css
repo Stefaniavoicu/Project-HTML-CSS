@@ -1,0 +1,290 @@
+@import url(./global.css);
+.banner{
+    width: 100%;
+    height: 650px;
+    background-image: url(./assets/stories/desktop/moon-of-appalacia.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    padding: 122px 112px;
+    color: var(--white-color);
+}
+.banner-text{
+   max-width: 387px;
+}
+.banner-header{
+    margin-bottom: 24px;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+.banner-title{
+    margin-bottom: 16px;
+}
+.banner-author{
+    margin-bottom: 24px;
+}
+.banner-p{
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25px;
+    opacity: 0.6;
+    margin-bottom: 24px;
+}
+.banner-button-container{
+    display: flex;
+    gap: 16px;
+    cursor: pointer;
+}
+.banner-button{
+    text-align: right;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    background: none;
+    border: none;
+    text-transform: uppercase;
+    color: var(--white-color);
+    cursor: pointer;
+}
+.banner-button:hover{
+    text-decoration-line: underline;
+}
+.banner-mobile{
+    display: none;
+}
+.card-section{
+    height: fit-content;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(min-content,360px));
+}
+.card{
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-end;
+    padding-left: 40px;
+    padding-bottom: 40px;
+}
+.card-bg1{
+    background-image: url(./assets/stories/desktop/mountains.jpg);
+}
+.card-bg2{
+    background-image: url(./assets/stories/desktop/cityscapes.jpg);
+}
+.card-bg3{
+    background-image: url(./assets/stories/desktop/18-days-voyage.jpg);
+}
+.card-bg4{
+    background-image: url(./assets/stories/desktop/architecturals.jpg);
+}
+.card-bg5{
+    background-image: url(./assets/stories/desktop/world-tour.jpg);
+}
+.card-bg6{
+    background-image: url(./assets/stories/desktop/unforeseen-corners.jpg);
+}
+.card-bg7{
+    background-image: url(./assets/stories/desktop/king-on-africa.jpg);
+}
+.card-bg8{
+    background-image: url(./assets/stories/desktop/trip-to-nowhere.jpg);
+}
+.card-bg9{
+    background-image: url(./assets/stories/desktop/rage-of-the-sea.jpg);
+}
+.card-bg10{
+    background-image: url(./assets/stories/desktop/running-free.jpg);
+}
+.card-bg11{
+    background-image: url(./assets/stories/desktop/behind-the-waves.jpg);
+}
+.card-bg12{
+    background-image: url(./assets/stories/desktop/calm-waters.jpg);
+}
+.card-bg13{
+    background-image: url(./assets/stories/desktop/milky-way.jpg);
+}
+.card-bg14{
+    background-image: url(./assets/stories/desktop/dark-forest.jpg);
+}
+.card-bg15{
+    background-image: url(./assets/stories/desktop/somwarpet.jpg);
+}
+.card-bg16{
+    background-image: url(./assets/stories/desktop/land-of-dreams.jpg);
+}
+.card-bg1:hover,
+.card-bg2:hover,
+.card-bg3:hover,
+.card-bg4:hover,
+.card-bg5:hover,
+.card-bg6:hover,
+.card-bg7:hover,
+.card-bg8:hover,
+.card-bg9:hover,
+.card-bg10:hover,
+.card-bg11:hover,
+.card-bg12:hover,
+.card-bg13:hover,
+.card-bg14:hover,
+.card-bg15:hover,
+.card-bg16:hover{
+
+    transform: translateY(-24px);
+    border-bottom: 6px solid;
+    border-image: linear-gradient(
+        150deg,
+        hsl(28deg 100% 79%) 0%,
+        hsl(19deg 92% 77%) 20%,
+        hsl(9deg 78% 75%) 29%,
+        hsl(356deg 62% 72%) 36%,
+        hsl(343deg 49% 66%) 43%,
+        hsl(329deg 36% 59%) 50%,
+        hsl(316deg 38% 58%) 57%,
+        hsl(297deg 37% 57%) 64%,
+        hsl(277deg 52% 62%) 71%,
+        hsl(255deg 72% 67%) 80%,
+        hsl(229deg 100% 68%) 100%
+      )
+      1;
+}
+.card-section-p{
+    font-size: 13px;
+    font-weight: 400;
+    color: var(--white-color);
+}
+.card-section-title{
+    color: var(--white-color);
+}
+.card-line{
+    margin-top: 16px;
+    width: 280px;
+    height: 1px;
+    opacity: 0.25;
+    background-color: var(--white-color);
+}
+.card-button-container{
+    margin-top: 22px;
+    display: flex;
+    gap: 147px;
+}
+.card-button{
+    background: none;
+    border: none;
+    color: var(--white-color);
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+@media (max-width:768px){
+    .banner{
+        background-image: url(./assets/stories/tablet/moon-of-appalacia.jpg);
+        padding-left: 39px;
+    }
+    .card{
+        width: 384px;
+    }
+    .card-line{
+        width: 298.667px;
+    }
+    .card-button-container{
+        gap: 157.467px;
+    }
+}
+@media(max-width:375px){
+    nav ul{
+        display: none;
+    }
+    .nav-button{
+       display: none;
+    }
+    .burger-menu{
+        height: 10px;
+        width: 20px;
+        background-image: url(./assets/shared/desktop/burger-menu.svg);
+        cursor: pointer;
+    }
+    .banner{
+        background-image:url(./assets/stories/mobile/moon-of-appalacia.jpg);
+        height: 315px;
+        display: grid;
+
+    }
+    .banner-text{
+        display: none;
+    }
+    .banner-mobile{
+        display: block;
+        height: 495px;
+        background-color: var(--black-color);
+        padding-top: 48px;
+        padding-left: 29px;
+        color: var(--white-color);
+    }
+    .banner-text-mobile{
+        max-width: 318px;
+    }
+    .banner-header-mobile{
+        margin-bottom: 16px;
+        font-size: 12px;
+        font-weight: 700;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+    }
+    .banner-title-mobile{
+        margin-bottom: 16px;
+        font-size: 32px;
+        font-weight: 700;
+        line-height: 40px; 
+        letter-spacing: 3.333px;
+    }
+    .banner-author-mobile{
+        margin-bottom: 24px;
+    }
+    .banner-p-mobile{
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 25px;
+        opacity: 0.6;
+        margin-bottom: 24px;
+    }
+    .banner-button-container-mobile{
+        display: flex;
+        gap: 16px;
+        cursor: pointer;
+    }
+    .banner-button-mobile{
+        text-align: right;
+        font-size: 12px;
+        font-weight: 700;
+        letter-spacing: 2px;
+        background: none;
+        border: none;
+        text-transform: uppercase;
+        color: var(--white-color);
+        cursor: pointer;
+    }
+    .banner-button-mobile:hover{
+        text-decoration-line: underline;
+    }
+    .card{
+        width: 375px;
+        height: 375px;
+    }
+    .card-line{
+        width: 291.667px;
+    }
+    .card-button-container{
+        gap: 152.784px;
+    }
+}
